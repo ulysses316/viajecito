@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/master.css">
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="./img/logo.png" alt="" width="50px">
+            <span>Viajecito</span>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+      
+            <a class="navbar-item">
+              Documentation
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">
+                  Jobs
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container">
+        <div class="viajes-container">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                    <img src="./img/cabaña.jpg" alt="Placeholder image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div>
+                            <p class="title is-4">Hermosa Cabaña Cerca de Mineral del Chico</p>
+                        </div>
+                    </div>
+                
+                    <div class="content">
+                        <p>Mineral del Chico, Hidalgo, México</p>
+                        <time datetime="2021-12-17">17 - 19 de diciembre del 2021</time>
+                    </div>
+
+                    <div class="">
+                        <a href="https://www.airbnb.mx/rooms/43046909?adults=10&check_in=2021-12-17&check_out=2021-12-19&translate_ugc=false&source_impression_id=p3_1633762336_HI7AIaPvgCB9GkZo&guests=1" target="__blank"><button class="button is-danger">Ver Airbnb</button></a>
+                        <a href="gastos.html" target="_blank"><button class="button is-link">Ver viaje</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+  <script src="./js/index.js"></script>
+  </body>
+</html>
